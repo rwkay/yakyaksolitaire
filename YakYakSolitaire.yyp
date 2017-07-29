@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "583e93ab-e902-4926-b476-a730a88014c2",
+            "Value": {
+                "id": "c713f495-abd1-4bb3-b540-4448755b7fd6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/values\/values.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e194da0-708b-4978-bd9e-c94c63ff6eed",
             "Value": {
                 "id": "1fbc227e-bc68-4f7f-a28b-d24f0506d7b7",
@@ -454,6 +473,25 @@
                 ],
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa743929-863e-4028-8fa6-08996858d1ce",
+            "Value": {
+                "id": "8174e946-19ae-4d05-ae50-ac31ee69645c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/suits\/suits.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -10,5 +10,12 @@ for( var n=0; n<numCards; ++n) {
 		index = 0;
 	} // end if
 	draw_sprite( card, index, xx, yy );
+	// draw the suit
+	if (c.facing) {
+		var v = c.cardValue;
+		var s = floor(v / kSUIT_FACTOR);
+		draw_sprite( suits, s, xx, yy );
+		draw_sprite( values, v & 0xf, xx, yy );
+	} // end if
 	yy += 8;
 } // end for
