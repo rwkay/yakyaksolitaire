@@ -286,6 +286,25 @@
             }
         },
         {
+            "Key": "7153d4cc-4d59-4fab-8f48-afb41b9d6fff",
+            "Value": {
+                "id": "813adacb-569d-44e2-953e-ea4f1f88e8c8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/drawCard\/drawCard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "7a116931-d124-4fff-8ab0-c72fc18ef7ae",
@@ -667,7 +686,7 @@
         }
     ],
     "script_order": [
-        
+        "7153d4cc-4d59-4fab-8f48-afb41b9d6fff"
     ],
     "tutorial": ""
 }

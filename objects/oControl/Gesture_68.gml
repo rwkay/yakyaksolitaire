@@ -1,4 +1,4 @@
-/// @description Global Dragging End
+/// @description Dragging End
 
 if (global.draggingStack != -1) {
 
