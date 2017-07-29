@@ -186,5 +186,16 @@ var cardIndex = 0;
 for( var n=array_length_1d(global.stacks)-1; n>=0; --n) {
 	var cards = global.stacks[n].cards;
 	var numcards = array_length_1d(cards);
-	cards[@ numcards ] = global.cards[ cardIndex++ ];
+	for( var m=0; m<=n; ++m) {
+		var c = instance_create_layer( 0, 0, "cards", card ); 
+		cards[@ numcards ] = c;
+		c.cardValue = global.cards[ cardIndex++ ];
+		++numcards;
+	} // end for
+} // end for
+
+for( var n=array_length_1d(global.stacks)-1; n>=0; --n) {
+	var cards = global.stacks[n].cards;
+	var numcards = array_length_1d(cards);
+	cards[numcards-1].facing = true;
 } // end for
