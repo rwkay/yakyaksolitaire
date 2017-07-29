@@ -2,6 +2,7 @@
 var numCards = array_length_1d(cards);
 var xx = x;
 var yy = y;
+var blend = dragging ? c_red : c_white;
 for( var n=0; n<numCards; ++n) {
 	// check to see if card is turned round
 	var c = cards[n];
@@ -9,7 +10,7 @@ for( var n=0; n<numCards; ++n) {
 	if (c.facing) {
 		index = 0;
 	} // end if
-	draw_sprite( card, index, xx, yy );
+	draw_sprite_ext( card, index, xx, yy, 1, 1, 0, blend, 1 );
 	// draw the suit
 	if (c.facing) {
 		var v = c.cardValue;

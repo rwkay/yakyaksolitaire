@@ -5,3 +5,6 @@ rect_x = x;
 rect_y = y;
 rect_w = sprite_get_width(card);
 rect_h = room_height - y;
+dragging = false;
+dragStartX = -1;
+dragStartY = -1;

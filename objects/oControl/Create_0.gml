@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Create the control object
 #macro kNUM_STACKS 7
 #macro kSTACK_X 40
 #macro kSTACK_Y 40
@@ -199,3 +199,5 @@ for( var n=array_length_1d(global.stacks)-1; n>=0; --n) {
 	var numcards = array_length_1d(cards);
 	cards[numcards-1].facing = true;
 } // end for
+
+global.draggingStack = -1;
